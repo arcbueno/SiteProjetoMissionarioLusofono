@@ -85,6 +85,10 @@ section {
 .team p {
   text-align: left;
 }
+.link {
+  color: black;
+  text-decoration: none;
+}
 footer {
   background: #2f4f4f;
   color: white;

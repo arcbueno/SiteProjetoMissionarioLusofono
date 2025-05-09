@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: linear-gradient(to right, #006033, #8b0000);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.hero {
+  background: url("https://img.freepik.com/fotos-premium/bandeira-de-portugal-com-textura-grunge_2227-2277.jpg?semt=ais_hybrid&w=740")
+    no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* ou 50vh se quiser só metade da altura */
+  width: 100vw; /* <- usa 100% da largura da viewport */
+  text-shadow: 2px 2px 4px black;
+}
+.hero h1 {
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+.btn {
+  background: #daa520;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+section {
+  padding: 1rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100vw;
+}
+.team img {
+  width: 350px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.team div {
+  flex: 1;
+  padding-top: 14px;
+}
+.team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team p {
+  text-align: left;
+}
+footer {
+  background: #2f4f4f;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  width: 100vw;
+}
